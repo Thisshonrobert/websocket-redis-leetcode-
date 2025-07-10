@@ -1,0 +1,9 @@
+express_backend/node_modules/
+express_backend/dist/
+pubsub/node_modules/
+pubsub/dist/
+websocket_server/node_modules/
+websocket_server/dist/
+worker_backend/node_modules/
+worker_backend/dist/
+
