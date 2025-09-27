@@ -6,4 +6,6 @@ websocket_server/node_modules/
 websocket_server/dist/
 worker_backend/node_modules/
 worker_backend/dist/
+websocket_client_test/node_modules/
+websocket_client_test/dist/
 
