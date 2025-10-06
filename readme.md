@@ -1,4 +1,5 @@
 🧠 Real-time Code Submission System with Redis, Pub/Sub, and WebSockets
+![architecture](image.png)
 
 This project demonstrates a real-time system using Express.js, Redis (for Queue and Pub/Sub), and WebSockets to deliver asynchronous code submission results to clients.
 
