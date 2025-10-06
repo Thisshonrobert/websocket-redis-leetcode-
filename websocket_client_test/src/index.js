@@ -10,7 +10,7 @@ ws.on('open', () => {
         userId: "alice", 
         problemId: "p1"
     }));
-    console.log('📝 Registered interest in alice:p1');
+    console.log(' Registered interest in alice:p1');
 });
 
 ws.on('message', (data) => {
