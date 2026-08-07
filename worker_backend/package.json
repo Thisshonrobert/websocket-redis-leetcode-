@@ -11,5 +11,8 @@
   "description": "",
   "dependencies": {
     "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0"
   }
 }

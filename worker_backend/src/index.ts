@@ -1,6 +1,10 @@
 import { createClient } from "redis";
 const client = createClient();
 
+// BUG FIX: without this, a dropped Redis connection crashes the worker
+// silently (unhandled 'error' event) instead of just logging it.
+client.on('error', (err) => console.error('Worker Redis error:', err));
+
 async function processSubmission(submission: string) {
     const {userId, problemId, code, language } = JSON.parse(submission);
 
